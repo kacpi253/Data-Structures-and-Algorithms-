@@ -3,12 +3,24 @@
 This repository contains a collection of implementations of fundamental data structures and algorithms, written in C++ during my studies (Semester 3).
 
 ## 📁 Repository Structure
-All implementations are located in the `src` directory. They cover a variety of computer science concepts, including:
 
-* **Sorting Algorithms:** Implementations of various sorting methods (`AlgorytmySortujace.cpp`, `Lab7_Sortowanie.cpp`).
-* **Graphs (Grafy):** Graph theory problems, representations, and traversal algorithms (`Grafy_Lab10.cpp`, `Grafy_Czesc2.cpp`, `Grafy_Czesc3.cpp`).
-* **Data Structures:** Implementations of dynamic data structures like lists, stacks, or queues (`Lab3_Struktury.cpp`, `Lab4_Zadanie1.cpp` - `Lab4_Zadanie5.cpp`).
-* **Problem Solving:** Solutions to various algorithmic assignments and colloquium tasks (`Kolokwium_*.cpp`, `Lab6_*.cpp`).
+The source code is organized into logical categories within the `src` directory:
+
+### 1. `src/Data_Structures/`
+Implementations of dynamic data structures.
+* Lists, Stacks, Queues, and Trees (`Lab3_*.cpp`, `Lab4_*.cpp`).
+
+### 2. `src/Graphs/`
+Graph theory problems, representations, and traversal algorithms.
+* Implementations of various graph concepts (`Grafy_Lab10.cpp`, `Grafy_Czesc2.cpp`, `Grafy_Czesc3.cpp`).
+
+### 3. `src/Sorting/`
+Sorting algorithms.
+* Implementations of standard sorting methods (`AlgorytmySortujace.cpp`, `Lab7_Sortowanie.cpp`).
+
+### 4. `src/Exams_and_Tasks/`
+Solutions to various algorithmic assignments and colloquium tasks.
+* Problem-solving tasks testing algorithmic thinking (`Kolokwium_*.cpp`, `Lab6_*.cpp`, `Lab12_*.cpp`).
 
 ## 🛠️ Technologies
 * C++ 
@@ -19,6 +31,6 @@ These are standalone C++ source files. You can compile and run them using any st
 
 Example using GCC (MinGW on Windows / g++ on Linux):
 ```bash
-g++ src/AlgorytmySortujace.cpp -o sort
+g++ src/Sorting/AlgorytmySortujace.cpp -o sort
 ./sort
 ```

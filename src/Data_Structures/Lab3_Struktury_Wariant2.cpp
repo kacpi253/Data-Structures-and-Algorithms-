@@ -70,7 +70,7 @@ int main()
 }
 
 
-///   ZAD3 bez pomocniczego stosu - AI ///
+///   ZAD3 bez pomocniczego stosu ///
 
 // Specjalista: Wk³ada 'item' na dno stosu 's'.
 void insertAtBottom(Stack& s, int item) {
